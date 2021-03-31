@@ -11,7 +11,7 @@ import DogCard from './components/DogCard';
 function App() {
   const [image, setImage] = useState(null);
   const [houndImages, setHoundImages] = useState(null);
-  const [title, setTitle] = useState('React Dogs');
+  const [title, setTitle] = useState('React Dogs (modified)');
 
   const fetch = async () => {
     try {
